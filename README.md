@@ -1,2 +1,3 @@
-# gocart-api-auth-ecommerce
-A frontend e-commerce web application with authentication, API-driven product listing, cart management, and responsive UI built using HTML, CSS, and JavaScript.
+GoCart is an authentication-based e-commerce web application built with HTML, CSS, and JavaScript.
+It integrates external APIs for product data, implements login-based access control, cart management, and responsive UI.
+
