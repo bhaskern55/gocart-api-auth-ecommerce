@@ -1,0 +1,91 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+body{
+      background: linear-gradient(135deg, #43cea2, #185a9d);
+      display: flex;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+}
+
+form{
+    /* border: solid 1px grey; */
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+}
+form input,button{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 5px;
+}
+form input{
+    margin-top: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+     outline: none;
+}
+input:focus{
+    border: solid #667eea 1px;
+    outline: none;
+}
+form label{
+    margin-top: 10px;
+}
+form h2 {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+
+form button{
+    color:black;
+    border-radius: 10px;
+    border: none;
+    /* background-color: rgba(0, 0, 255, 0.36);
+     */
+     background-color: #667eea;
+     color: white;
+     font-size: 1rem;
+     font-weight: 500;
+    margin-top: 20px;
+    padding: 10px;
+    position: relative;
+}
+
+
+.registration-text{
+    /* margin: auto; */
+    /* border: solid; */
+    margin-top: 10px;
+    text-align: center;
+}
+
+.registration-text a{
+    text-decoration: none;
+    margin-left: 7px;
+    font-weight: 500;
+}
+
+.registration-text a:hover{
+    text-decoration: underline;
+}
+
+#loginContainer .bi{
+    margin-right: 10px;
+}
+
+button .bi-arrow-right-short{
+    /* border: solid; */
+    position: absolute;
+    top: 12px;
+
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoCart Registration</title>
+    <link rel="stylesheet" href="./registration.css">
+   <link rel="icon" href="../GoCart-Photoroom.png">
+</head>
+<body>
+    <div id="formContainer">
+        <form action="">
+        <h2>Create Account</h2>
+        <div id="data">
+            <label for="name">Full Name :</label>
+        <input type="text" required placeholder="Enter Your Name :" id="name">
+        </div>
+        <div id="data">
+            <label for="Email">Email Address :</label>
+        <input type="email" required id="email" placeholder="Enter email address">
+         <p id="errorMail"></p>
+        </div>
+        <div id="data">
+            <label for="">Password :</label>
+        <input type="password" required id="password" placeholder="password">
+        </div>
+        <div id="data">
+            <label for="">Mobile Number :</label>
+        <input type="number" required id="mobile" placeholder="Mobil Number">
+        </div>
+            <button id="register">Register</button>
+        <div id="login">
+             <p>Already have an account </p> 
+        <button class="btn"><a href="../Login/login.html">Login</a></button>
+        </div>
+    </form>
+    </div>
+    <script src="./registration.js"></script>
+</body>
+</html>

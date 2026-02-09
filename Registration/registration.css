@@ -1,0 +1,142 @@
+/* #formContainer{
+    border: solid grey 1px;
+    margin:100px auto;
+    height: 500px;
+    width: 400px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 8px;
+    align-items: center;
+}
+
+#formContainer input{
+    width: 200px;
+    height: 20px;
+}
+
+#formContainer label{
+    display: flex;
+}
+
+#register{
+    margin: auto;
+    height: 30px;
+    width: 200px;
+    display: flex;
+} 
+*/
+#errorMail{
+    content: "";
+    color: red;
+    /* border: solid; */
+    top: 22px;
+    right: 10px;
+    position: absolute;
+    font-size: 12px;
+}
+
+*{
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#formContainer{
+    height: 550px;
+    width: 360px;
+    border: solid;
+    background-color: #fff;
+    border-radius: 10px;
+     box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+     border: none;
+     padding: 30px;
+}
+
+#container h2{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#data{
+    margin-bottom: 15px;
+    position: relative;
+}
+
+label{
+    display: block;
+    font-size: 14px;
+    /* margin-top: 20px; */
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+input:focus {
+  outline: none;
+  border-color: #667eea;
+}
+
+#register{
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: none;
+    background: #667eea;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+#register:hover {
+  background: #5a67d8;
+}
+
+#login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
+    margin-top: 10px;
+}
+.btn{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+     color: #667eea;
+    font-weight: bold;
+}
+.btn a{
+    text-decoration: none;
+}
+.btn:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+.login-text {
+  margin-top: 15px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.login-text a {
+  color: #667eea;
+  text-decoration: none;
+  font-weight: bold;
+}
+

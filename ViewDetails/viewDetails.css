@@ -1,0 +1,130 @@
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+    background: #fff1f4;
+}
+
+main{
+
+    height: 100vh;
+    width: 700px;
+     background-color:rgba(240, 230, 140, 0.16);
+    margin:10px auto;
+    
+}
+
+header{
+    padding-top: 40px;
+    display: flex;
+    gap: 40px;
+}
+
+#details{
+   
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 18px;
+    width: 420px;
+    box-shadow: 0 12px 35px rgba(0,0,0,0.1);
+}
+#details p{
+    font-weight: 400;
+}
+
+#review_section{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#image img {
+  width: 260px;
+  border-radius: 14px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+}
+
+#details h2 {
+  font-size: 26px;
+  margin-bottom: 6px;
+  background-color: #ffffff;
+}
+
+#details p {
+  color: #555;
+  line-height: 1.6;
+  background-color: #ffffff;
+}
+
+#Buttons {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+  background-color: #ffffff;
+}
+
+#addToCart {
+  background: #e91e63;
+  color: white;
+  border: none;
+  padding: 12px 22px;
+  border-radius: 25px;
+  font-size: 14px;
+  cursor: pointer;
+}
+#addToCart:hover{
+    text-decoration: underline;
+    color: white;
+    
+}
+#BackToHome {
+  background: transparent;
+  border: 1px solid #e91e63;
+  color: #e91e63;
+  padding: 12px 22px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+#BackToHome:hover{
+    text-decoration: underline;
+}
+
+section {
+  margin-top: 50px;
+  padding: 0 60px;
+}
+
+section h1{
+    margin-bottom: 20px;
+}
+section hr{
+    margin-bottom: 10px;
+}
+#review_section {
+  background: white;
+  padding: 18px 22px;
+  border-radius: 14px;
+  margin-bottom: 18px;
+  box-shadow: 0 8px 22px rgba(0,0,0,0.08);
+  /* border-left: 5px solid #e91e63; */
+}
+
+#review_section p{
+    background-color: #ffffff;
+}
+#nam strong{
+    background-color: #ffffff;
+}
+
+
+@media (max-width: 900px) {
+  #productDetails {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
