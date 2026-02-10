@@ -1,4 +1,4 @@
-# GoCart – Authentication-Based E-Commerce Web App
+# GoCart – Authentication-Based E-Commerce Platform (API-Driven UI)
 
 GoCart is a frontend-focused e-commerce web application that implements **authentication-based access**, **API-driven product rendering**, and **cart management** using plain **HTML, CSS, and JavaScript**.
 
