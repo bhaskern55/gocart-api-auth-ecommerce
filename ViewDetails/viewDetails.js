@@ -64,7 +64,7 @@ if(allproducts && productId){
         </main>
         `
         document.getElementById("BackToHome").addEventListener("click",()=>{
-            window.location.href="../Home/Home.html";
+            window.location.href="../Home/home.html";
         });
         document.getElementById("addToCart").addEventListener("click",()=>{
             addToCart(selectedProduct);
