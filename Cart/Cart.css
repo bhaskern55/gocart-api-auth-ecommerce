@@ -124,3 +124,30 @@
   transform: translateY(-3px);
   box-shadow: 0 15px 30px rgba(225,29,72,0.45);
 }
+
+/* Responsive.. */
+@media (max-width: 768px) {
+
+  #container {
+    flex-direction: column;
+    height: auto;
+    padding: 15px;
+  }
+
+  #imgContainer {
+    width: 100%;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  #details {
+    width: 100%;
+  }
+
+  #price {
+    position: static;
+    text-align: center;
+    margin-top: 30px;
+  }
+}
+
