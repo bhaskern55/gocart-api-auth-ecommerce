@@ -121,10 +121,25 @@ section hr{
 }
 
 
-@media (max-width: 900px) {
+/* @media (max-width: 900px) {
   #productDetails {
     flex-direction: column;
     align-items: center;
+  }
+} */
+@media (max-width: 768px) {
+  main {
+    width: 95%;
+  }
+
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #image img {
+    width: 100%;
+    max-width: 280px;
   }
 }
 
