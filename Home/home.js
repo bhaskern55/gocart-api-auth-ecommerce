@@ -35,7 +35,7 @@ function displayProduct(prod){
         output +=`
         <main>
         <div id="image">
-        <img src="${val.thumbnail}"/>
+         <img src="${val.thumbnail}" onclick="details(${val.id})" style="cursor:pointer"/>
         </div>
         <div id="d_container">
          <h3>${val.price}</h3>
