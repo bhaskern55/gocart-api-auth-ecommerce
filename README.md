@@ -63,4 +63,4 @@ GoCart was intentionally designed to:
 
 ## Status
 Project is complete and fully functional.  
-Future improvements may include better UI polish and backend-based authentication.
+Future improvements may include better UI polish and backend-based authentication..
